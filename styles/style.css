@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* banner styles */
+
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+.banner{
+    text-align: right;
+    padding: 200px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.banner-description{
+    font-size: 16px;
+    color: grey;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.banner-button{
+    height: 65px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px 30px;
+}
+
+
+/* failure section styles */
+
+.failure{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-info{
+    padding: 125px 140px;
+}
+
+.failure-info{
+    margin: 370px 300px 150px 0;
+}
+
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-description{
+    color: #444343;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.contrary{
+    display: flex;
+    margin-top: 10px;
+}
+
+.check-mark{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.belive{
+    color: #444343;
+}
+
+
+/* my plans section styles */
+
+.my-plans-header{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 55px;
+    text-align: center;
+}
+.my-plans{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.plan-img{
+    height: 80px;
+    width: 80px;    
+    display: flex;
+    margin: 0 auto;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.plan-description{
+    font-weight: 500;
+    font-size: 19px;
+    color: #737272;
+    text-align: center;
+}
+
+/* , linear-gradient(rgba(0,0,0,0.06), rgba(0,0,0,0.09));
+    background-blend-mode: overlay; */

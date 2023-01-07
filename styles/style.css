@@ -25,7 +25,7 @@ header{
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     height: 800px;
-    width: 100hv;
+    width: 100%;
 }
 
 .banner{
@@ -168,13 +168,14 @@ header{
     align-items: center;
     margin: 0 50px 180px;
 }
-h1{
-    font-size: 50px;
+h2{
+    font-size: 45px;
+    margin-bottom: 35px;
 }
 
 .positivity-description{
     font-size: 18px;
-    margin: 20px;
+    margin: 0 25px 20px;
     color: rgba(49, 45, 45, 0.755);
 }
 
@@ -183,7 +184,7 @@ h1{
     border: none;
     border-radius: 10px;
     padding: 30px;
-    font-weight: 600px;
+    font-weight: 600;
     margin: 15px;
 }
 
@@ -206,7 +207,7 @@ h1{
 
 .footer-border{
     height: 480px;
-    width: 100hv;
+    width: 100%;
     background-color: #151414;
     display: flex;
     justify-content: space-around;

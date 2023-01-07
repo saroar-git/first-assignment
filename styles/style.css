@@ -7,6 +7,17 @@
     color: tomato;
 }
 
+.primary-button{
+    height: 65px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px 30px;
+}
+
 
 /* header and banner styles */
 
@@ -32,17 +43,6 @@ header{
     color: grey;
     padding-top: 25px;
     padding-bottom: 20px;
-}
-
-.banner-button{
-    height: 65px;
-    font-weight: 600;
-    font-size: 20px;
-    background-color: tomato;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 20px 30px 30px;
 }
 
 
@@ -161,7 +161,45 @@ header{
 }
 
 
-/* extra section styles */
+/* extra section (positivity) styles */
+
+.positivity{
+    text-align: center;
+    align-items: center;
+    margin: 0 50px 180px;
+}
+h1{
+    font-size: 50px;
+}
+
+.positivity-description{
+    font-size: 18px;
+    margin: 20px;
+    color: rgba(49, 45, 45, 0.755);
+}
+
+.positivity-ways{
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 600px;
+    margin: 15px;
+}
+
+.best{
+    border: 2px solid tomato;
+    background: #FFEEEE;
+}
+
+.write-your-way{
+    color: rgba(49, 45, 45, 0.755);
+    margin-top: 25px;
+}
+
+.line{
+    margin: 5px 550px 20px;
+}
 
 
 /* footer section */
